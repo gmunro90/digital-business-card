@@ -1,0 +1,40 @@
+.card-container {
+  width: 550px;
+  height: 868px;
+  background-color: #23252C;
+}
+.card-wrapper {
+  position: relative;
+  top: 50px;
+}
+
+.top-rect {
+  background-color: #1A1B21;
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+.mid-rect {
+  background-color: #7c8ad8;
+  width: 317px;
+  height: 399px;
+  border-radius: 10px 10px 0px 0px;
+  margin: auto;
+}
+
+footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+}
+.profile-photo {
+  max-width: 100%;
+  border-radius: 10px;
+}
