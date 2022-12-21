@@ -1,10 +1,12 @@
 import React from 'react'
 
 
-const Footer = () => {
+const Footer = ({ twitterLink, facebookLink, instagramLink, gitHubLink }) => {
   return (
     <div>
-    <footer></footer>
+      <footer>
+      
+      </footer>
     </div>
   )
 }

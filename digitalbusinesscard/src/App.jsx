@@ -9,14 +9,14 @@ import greg from './greg.jpg'
 function App() {
   return (
     <div className='App'>
-      <div className='card-container'>
+
       <div className='card-wrapper'>
         <TopRect photo={greg} name={'Greg Munro'} jobTitle={'Frontend Developer'} website={'greg-munro.com'}/>
-        <MidRect />
+        <MidRect about={'testing the about section'} interests={'testing the interests section'}/>
         <Footer />
         </div>
       </div>
-    </div>
+
   )
 }
 
