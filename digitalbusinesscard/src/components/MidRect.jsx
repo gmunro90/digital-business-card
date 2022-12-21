@@ -4,12 +4,12 @@ const MidRect = ({ about, interests }) => {
   return (
     <div className='mid-rect'>
       <div>
-        <h4>about</h4>
+        <h3>About</h3>
         <p>{about}</p>
       </div>
 
       <div>
-        <h4>interests</h4>
+        <h3>Interests</h3>
         <p>{interests}</p>
       </div>
     </div>
